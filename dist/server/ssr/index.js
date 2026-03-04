@@ -2317,23 +2317,23 @@ function createFromReadableStream(stream, options = {}) {
 }
 const clientReferences = {
   "2b3f3bb34ba2": async () => {
-    const m = await import("./assets/worker-entry-BCtuCzxt.js");
+    const m = await import("./assets/worker-entry-BBa4ekQr.js");
     return m.export_2b3f3bb34ba2;
   },
   "643116334cb3": async () => {
-    const m = await import("./assets/worker-entry-BCtuCzxt.js");
+    const m = await import("./assets/worker-entry-BBa4ekQr.js");
     return m.export_643116334cb3;
   },
   "9bdebf4ad9f6": async () => {
-    const m = await import("./assets/worker-entry-BCtuCzxt.js");
+    const m = await import("./assets/worker-entry-BBa4ekQr.js");
     return m.export_9bdebf4ad9f6;
   },
   "f29e6e234fea": async () => {
-    const m = await import("./assets/worker-entry-BCtuCzxt.js");
+    const m = await import("./assets/worker-entry-BBa4ekQr.js");
     return m.export_f29e6e234fea;
   },
   "0deffcb8ffd7": async () => {
-    const m = await import("./assets/worker-entry-BCtuCzxt.js");
+    const m = await import("./assets/worker-entry-BBa4ekQr.js");
     return m.export_0deffcb8ffd7;
   }
 };

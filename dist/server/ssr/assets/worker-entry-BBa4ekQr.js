@@ -50962,7 +50962,7 @@ function Particles({ count = 160 }) {
         attach: "attributes-position",
         array: positions,
         count,
-        itemSize: 3
+        itemSize: 5
       }
     ) }),
     /* @__PURE__ */ jsxRuntimeExports.jsx(

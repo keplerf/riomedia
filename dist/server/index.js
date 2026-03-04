@@ -1,4 +1,4 @@
-globalThis.__VINEXT_LAZY_CHUNKS__ = ["assets/worker-entry-BdIIHo0B.js"];
+globalThis.__VINEXT_LAZY_CHUNKS__ = ["assets/worker-entry-B5sj5Ivl.js"];
 import require$$0, { AsyncLocalStorage as AsyncLocalStorage$1 } from "node:async_hooks";
 import assetsManifest from "./__vite_rsc_assets_manifest.js";
 // @__NO_SIDE_EFFECTS__
