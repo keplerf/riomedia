@@ -2,7 +2,6 @@
 
 import { useRef, useMemo } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
-import * as THREE from "three";
 
 function Particles({ count = 160 }) {
   const meshRef = useRef(null);
@@ -36,7 +35,7 @@ function Particles({ count = 160 }) {
           attach="attributes-position"
           array={positions}
           count={count}
-          itemSize={3}
+          itemSize={5}
         />
       </bufferGeometry>
       <pointsMaterial

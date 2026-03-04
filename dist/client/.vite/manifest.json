@@ -1,0 +1,32 @@
+{
+  "_framework-Da7LvbZq.js": {
+    "file": "assets/framework-Da7LvbZq.js",
+    "name": "framework"
+  },
+  "virtual:vinext-app-browser-entry": {
+    "file": "assets/index-CIdmDjzT.js",
+    "name": "index",
+    "src": "virtual:vinext-app-browser-entry",
+    "isEntry": true,
+    "imports": [
+      "_framework-Da7LvbZq.js"
+    ],
+    "dynamicImports": [
+      "virtual:vite-rsc/client-references/group/facade:virtual:cloudflare/worker-entry",
+      "virtual:vite-rsc/client-references/group/facade:virtual:cloudflare/worker-entry",
+      "virtual:vite-rsc/client-references/group/facade:virtual:cloudflare/worker-entry",
+      "virtual:vite-rsc/client-references/group/facade:virtual:cloudflare/worker-entry",
+      "virtual:vite-rsc/client-references/group/facade:virtual:cloudflare/worker-entry"
+    ]
+  },
+  "virtual:vite-rsc/client-references/group/facade:virtual:cloudflare/worker-entry": {
+    "file": "assets/worker-entry-BdIIHo0B.js",
+    "name": "worker-entry",
+    "src": "virtual:vite-rsc/client-references/group/facade:virtual:cloudflare/worker-entry",
+    "isDynamicEntry": true,
+    "imports": [
+      "_framework-Da7LvbZq.js",
+      "virtual:vinext-app-browser-entry"
+    ]
+  }
+}
