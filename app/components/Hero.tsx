@@ -1,9 +1,18 @@
+"use client";
+
+import HeroBG from "./HeroBg";
+
 export default function Hero() {
   return (
     <section className="relative min-h-screen flex flex-col justify-center overflow-hidden px-6 lg:px-12 pt-24 pb-20">
-      {/* Background grid */}
+      {/* Three.js particle background */}
+      <div className="absolute inset-0 pointer-events-none">
+        <HeroBG />
+      </div>
+
+      {/* Background grid overlay */}
       <div
-        className="absolute inset-0 opacity-[0.04]"
+        className="absolute inset-0 opacity-[0.04] pointer-events-none"
         style={{
           backgroundImage:
             "linear-gradient(#fff 1px, transparent 1px), linear-gradient(90deg, #fff 1px, transparent 1px)",
@@ -23,8 +32,10 @@ export default function Hero() {
 
         {/* Headline */}
         <h1 className="text-5xl sm:text-7xl lg:text-8xl font-bold leading-[1.0] tracking-tight max-w-4xl">
-          We grow<br />
-          <span className="text-accent">brands</span> that<br />
+          We grow
+          <br />
+          <span className="text-accent">brands</span> that
+          <br />
           demand attention.
         </h1>
 
