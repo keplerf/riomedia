@@ -1,28 +1,28 @@
 const projects = [
   {
-    client: "Volta Electric",
-    category: "Paid Media · SEO",
+    client: "Easy School Software Solution",
+    category: "Optmization / Marketing",
     result: "+340% organic traffic in 6 months",
     year: "2024",
     color: "from-orange-900/30 to-transparent",
   },
   {
-    client: "Kova Skincare",
-    category: "Meta Ads · CRO",
-    result: "4.2× ROAS across Meta campaigns",
+    client: "Hot Lunchs",
+    category: "App optimization / Redesign",
+    result: "4.2× faster loading",
     year: "2024",
     color: "from-rose-900/30 to-transparent",
   },
   {
-    client: "Meridian Finance",
-    category: "Google Ads · Analytics",
+    client: "Critical Mass",
+    category: "Marketing / Landing Page",
     result: "Cost per lead reduced by 61%",
     year: "2023",
     color: "from-blue-900/30 to-transparent",
   },
   {
-    client: "Forma Studio",
-    category: "Social Media · Content",
+    client: "Glacier Media Digital ",
+    category: "Website Development/Design",
     result: "0 → 80K followers in 8 months",
     year: "2023",
     color: "from-violet-900/30 to-transparent",
@@ -39,7 +39,8 @@ export default function Work() {
             Selected work
           </p>
           <h2 className="text-4xl sm:text-5xl font-bold">
-            Results that<br />
+            Results that
+            <br />
             <span className="text-accent">speak for themselves.</span>
           </h2>
         </div>
@@ -52,7 +53,9 @@ export default function Work() {
               className="group relative py-10 flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-0 cursor-default"
             >
               {/* Hover bg */}
-              <div className={`absolute inset-0 bg-gradient-to-r ${p.color} opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none`} />
+              <div
+                className={`absolute inset-0 bg-gradient-to-r ${p.color} opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none`}
+              />
 
               <span className="relative text-xs font-mono text-zinc-600 sm:w-16">
                 {String(i + 1).padStart(2, "0")}

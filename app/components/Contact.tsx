@@ -20,8 +20,10 @@ export default function Contact() {
               Get in touch
             </p>
             <h2 className="text-4xl sm:text-5xl font-bold leading-tight mb-8">
-              Let's build<br />
-              something<br />
+              Let's build
+              <br />
+              something
+              <br />
               <span className="text-accent">great together.</span>
             </h2>
             <p className="text-zinc-400 leading-relaxed mb-12 max-w-sm">
@@ -31,14 +33,21 @@ export default function Contact() {
 
             <div className="flex flex-col gap-5 text-sm text-zinc-400">
               <div>
-                <p className="text-xs text-zinc-600 uppercase tracking-widest mb-1">Email</p>
-                <a href="mailto:hello@riomedia.com" className="hover:text-foreground transition-colors">
+                <p className="text-xs text-zinc-600 uppercase tracking-widest mb-1">
+                  Email
+                </p>
+                <a
+                  href="mailto:hello@riomedia.com"
+                  className="hover:text-foreground transition-colors"
+                >
                   hello@riomedia.com
                 </a>
               </div>
               <div>
-                <p className="text-xs text-zinc-600 uppercase tracking-widest mb-1">Location</p>
-                <p>Miami, FL — serving clients worldwide</p>
+                <p className="text-xs text-zinc-600 uppercase tracking-widest mb-1">
+                  Location
+                </p>
+                <p>Vancouver, BC — serving clients worldwide</p>
               </div>
             </div>
           </div>
@@ -50,7 +59,9 @@ export default function Contact() {
                 <div className="w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center mb-6">
                   <span className="text-accent text-2xl">✓</span>
                 </div>
-                <h3 className="text-2xl font-bold mb-2">We got your message.</h3>
+                <h3 className="text-2xl font-bold mb-2">
+                  We got your message.
+                </h3>
                 <p className="text-zinc-400">
                   We'll be in touch within one business day.
                 </p>
