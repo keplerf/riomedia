@@ -1,6 +1,11 @@
 "use client";
 
-import HeroBG from "./HeroBg";
+import dynamic from "next/dynamic";
+
+const HeroBG = dynamic(() => import("./HeroBg"), {
+  ssr: false,
+  loading: () => <div className="absolute inset-0 animate-pulse bg-[#111]" />,
+});
 
 export default function Hero() {
   return (
